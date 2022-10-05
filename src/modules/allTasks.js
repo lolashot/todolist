@@ -17,8 +17,7 @@ export default class AllTasks {
     if (taskData.length) {
       const listOfTasks = taskData
         .map(
-          (task) =>
-            `<div class='flexMenu'>
+          (task) => `<div class='flexMenu'>
           <div class='displayTask'>
             <input
             type='checkbox'
@@ -32,13 +31,12 @@ export default class AllTasks {
           <i class='fa-solid fa-ellipsis-vertical'></i>
           </div>
           <hr>
-          <br>`
+          <br>`,
         )
         .join('');
       tasksStore.innerHTML = listOfTasks;
     } else {
-      tasksStore.innerHTML =
-        '<span><i> Please Add a Task</i></span>';
+      tasksStore.innerHTML = '<span><i> Please Add a Task</i></span>';
       const Complete = document.querySelector('.footer');
       Complete.style.display = 'none';
     }

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-  
+
 html {
   scroll-behavior: smooth;
 }
@@ -23,18 +23,18 @@ body {
   height: auto;
   border-top: 20px solid black;
   border-bottom: 20px solid black;
-} 
+}
 
 .section {
   width: 80%;
   margin: auto; 
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px;
   height: auto;
 }
 
 .icon {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 input {
@@ -42,11 +42,11 @@ input {
   background-color: transparent;
   resize: none;
   outline: none;
-  }
+}
 
 .flexMenu {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .displayTask {
@@ -55,15 +55,15 @@ input {
 }
 
 .checkbox {
-  border:2px solid slateblue;
+  border: 2px solid slateblue;
   width: 25px;
   height: 25px;
   margin: auto;
 }
 
 p {
-    margin: auto;
-    padding: 10px;
+  margin: auto;
+  padding: 10px;
 }
 
 .footer {
@@ -72,6 +72,6 @@ p {
 }
 
 ::placeholder {
-    font-size: large;
-    font-weight: 300;
+  font-size: large;
+  font-weight: 300;
 }
