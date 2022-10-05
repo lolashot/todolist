@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  background-color: bisque;
+  background-color: #d0d7de;
   width: 40%;
   margin: auto;
   padding: 20px;
@@ -28,9 +28,13 @@ body {
 .section {
   width: 80%;
   margin: auto; 
-  background-color: aliceblue;
+  background-color: #ffffff;
   padding: 10px;
   height: auto;
+}
+
+.icon {
+    margin-top: 25px;
 }
 
 input {
@@ -39,6 +43,11 @@ input {
   resize: none;
   outline: none;
   }
+
+.flexMenu {
+    display: flex;
+    justify-content: space-between;
+}
 
 .displayTask {
   display: flex;
@@ -49,6 +58,12 @@ input {
   border:2px solid slateblue;
   width: 25px;
   height: 25px;
+  margin: auto;
+}
+
+p {
+    margin: auto;
+    padding: 10px;
 }
 
 .footer {
