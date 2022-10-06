@@ -1,4 +1,4 @@
-const input = document.querySelector('.input-event');
+const input = document.querySelector('.guide');
 const list = document.querySelector('.list');
 const ellipse = document.querySelectorAll('.fa-ellipsis-vertical');
 
