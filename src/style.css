@@ -42,6 +42,7 @@ input {
   background-color: transparent;
   resize: none;
   outline: none;
+  cursor: initial;
 }
 
 .flexMenu {
