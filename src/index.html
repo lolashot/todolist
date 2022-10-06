@@ -10,31 +10,22 @@
     <title>Todolist</title>
   </head>
   <body>
-    <div class='main'>
-      <div class='section'>
-        <div class='flexMenu'>
-          <h3>Today's ToDo List</h3>
-          <i class='fa-solid fa-arrows-rotate icon'></i>
+    <div class="topmost">
+      <div>
+         <div class="head">
+          <p class="title">Today's To Do</p>
+          <i class="fa-solid fa-arrows-rotate"></i>
+         </div>
         </div>
-        <hr />
-        <br />
-        <form id='add-task-form' action='' method='post'>
-          <div class='task-input-div'>
-            <input
-              type='text'
-              name='title'
-              id='title'
-              placeholder='add Task...'
-              class='add-task-input task-title-input'
-              required
-            />
-          </div>
-        </form>
-        <hr />
-        <br />
-        <div class='showAll'></div>
-        <div class='footer'>Clear all completed</div>
+      <div  class="tasks">
+          <input type="text" class="input-event" placeholder="Add to your list ...">
+          <span><i class="fa fa-arrow-turn-up" id="enter"></i></span>
+      </div>
+          <ul class="list"></ul>
+      <div class="clear-list">
+          <button type="button" class="clear-done">Clear All Completed</button>
       </div>
     </div>
+<script src="index.js"></script>
   </body>
 </html>
