@@ -2,11 +2,9 @@ const input = document.querySelector('.guide');
 const list = document.querySelector('.list');
 const ellipse = document.querySelectorAll('.fa-ellipsis-vertical');
 
-const tick = document.querySelectorAll('.tick');
-
 const data = JSON.parse(localStorage.getItem('data')) || [];
 
-// ToDoList object class
+/// ToDoList object class
 class EventObj {
   constructor(task, done, index) {
     this.task = task;
@@ -26,7 +24,7 @@ class EventObj {
          EventObj.delEvent(i);
        });
      });
-
+     const tick = document.querySelectorAll('.tick');
      // Edit added event on UI
      const listData = document.querySelectorAll('.list-input');
      listData.forEach((e, i) => {
@@ -44,11 +42,11 @@ class EventObj {
      }
 
      tick.forEach((e, i) => {
-       tick.addEventListener('change', () => {
+       e.addEventListener('change', () => {
          if (e.checked === true) {
-           data[i].complete = true;
+           data[i].done = true;
          } else {
-           data[i].complete = false;
+           data[i].done = false;
          }
          localStorage.setItem('data', JSON.stringify(data));
        });
