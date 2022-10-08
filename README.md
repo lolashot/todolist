@@ -8,7 +8,7 @@
 
 ## Live Demo (if available)
 
-not yet available
+https://lolashot.github.io/todolist/dist/
 
 ## Getting Started
 
