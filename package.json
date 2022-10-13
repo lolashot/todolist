@@ -9,17 +9,9 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lolashot/Webpack-Setup.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lolashot/Webpack-Setup/issues"
-  },
-  "homepage": "https://lolashot/Webpack-Setup#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
     "babel-eslint": "^10.1.0",
@@ -47,6 +39,5 @@
     "setupFiles": [
       "jest-localstorage-mock"
     ]
-  },
-  "type": "module"
+  }
 }
